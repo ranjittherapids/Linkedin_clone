@@ -1,0 +1,22 @@
+.headeroption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+color: gray;
+}
+.headeroption:hover{
+    color: black;
+}
+.header_icon{
+    object-fit: contain;
+    height: 25px !important;
+    width: 25px !important;
+
+}
+.header_icon_user{
+    object-fit: contain;
+    height: 25px !important;
+    width: 25px !important;
+    border-radius: 50%;
+}
