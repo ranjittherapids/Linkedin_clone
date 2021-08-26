@@ -1,0 +1,8 @@
+.App{
+    background-color: #f3f2ef;
+}
+.app_body{
+    display: flex;
+    margin-top:75px;
+    padding: 50px;
+}

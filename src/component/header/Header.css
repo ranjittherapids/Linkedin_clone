@@ -1,0 +1,49 @@
+.header{
+   position: fixed;
+   top: 0;
+   left: 0;
+right: 0;
+display: flex;
+justify-content: space-around;
+align-items: center;
+background: white;
+
+padding: 10px 0;
+}
+.header_left{
+    display: flex;
+    align-items: center;
+}
+.header_left >img{
+    height: 50px;
+    object-fit: contain;
+    margin-right: 10px;
+    
+    
+}
+.header_search{
+    display: flex;
+    align-items: center;
+background:#e6eeff;
+border-radius: 5px;
+    padding: 10px;
+}
+.header_search >input{
+border: none;
+outline: none;
+background: none;
+font-size: 1rem;
+}
+.header_search >input:focus{
+    padding-left: 10px;
+}
+.header_right{
+    display: flex;
+    
+}
+.more_option{
+    display: flex;
+    padding-left: 10px;
+    border-left:  1px solid gray;
+}
+
